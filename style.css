@@ -16,6 +16,17 @@
   align-items: center;
 }
 
+h1{
+	animation: h1 4s linear infinite alternate;
+}
+
+@keyframes h1 {
+  0%   {color: white;}
+  25%  {color: rgb(241, 181, 181);}
+  50%  {color: rgb(191, 191, 237);}
+  100% {color: rgb(189, 228, 189);}
+}
+
 .buttons {
   margin-top: 10vh;
 }
@@ -28,6 +39,21 @@
   padding: 15px 50px;
   font-size: 150%;
   border-radius: 500px;
+	animation: btn 4s linear infinite alternate;
+}
+
+@keyframes btn {
+  0%   {background-color: white;}
+  25%  {background-color: rgb(241, 181, 181);}
+  50%  {background-color: rgb(191, 191, 237);}
+  100% {background-color: rgb(189, 228, 189);}
+}
+
+.btn:hover{
+	border: 5px solid white;
+	animation: none;
+	color: white;
+	background-color: rgb(15, 15, 15);
 }
 
 @media only screen and (max-width: 1000px) {
