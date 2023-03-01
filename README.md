@@ -4,4 +4,4 @@ A JS-based Algo for play/pause a StopWatch.
 
 Head over to following link for viewing live..
 
-https://atulsingh369.github.io/StopWatch/
+<h3> https://atulsingh369.github.io/StopWatch/ </h3>
