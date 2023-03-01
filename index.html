@@ -13,11 +13,14 @@
   </head>
   <body>
     <div class="container">
-			<h1 style="font-size: 400%;"><span>00</span> : <span>00</span> : <span>00</span></h1>
-			<div class="buttons">
-				<button class="btn" onclick="start()">Start</button>
-				<button class="btn" onclick="stop()">Stop</button>
-			</div>
+      <h1 style="font-size: 400%">
+        <span id="hrs">00</span> : <span id="min">00</span> :
+        <span id="sec">00</span>
+      </h1>
+      <div class="buttons">
+        <button class="btn" onclick="start()">Start</button>
+        <button class="btn" onclick="stop()">Stop</button>
+      </div>
       <div style="position: fixed; bottom: 10px">
         <h1
           style="
