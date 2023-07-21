@@ -1,4 +1,4 @@
-# StopWatch
+# Time Wrap
 
 A JS-based Algo for play/pause a StopWatch.
 
